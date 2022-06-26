@@ -1,16 +1,16 @@
 {
-  "projects":[
+  "posts": [
     {
-      "id":1,
-      "name":"Design ptp 100"
+      "id": 1,
+      "title": "Post 1"
     },
     {
-      "id":2,
-      "name":"Design ptp 100"
+      "id": 2,
+      "title": "Post 2"
     },
     {
-      "id":3,
-      "name":"Design rigid hanger 3198"
+      "id": 3,
+      "title": "Post 3"
     }
   ]
 }
