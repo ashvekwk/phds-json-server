@@ -1,5 +1,5 @@
 {
-  "projects":{
+  "projects":[
     {
       "id":1,
       "name":"Design ptp 100"
@@ -12,5 +12,5 @@
       "id":3,
       "name":"Design rigid hanger 3198"
     }
-  }
+  ]
 }
