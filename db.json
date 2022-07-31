@@ -27,7 +27,7 @@
       "tag": "Support 1",
       "quantity": 11,
       "unit":"english",
-      "line": "line-support-1"
+      "line": "line-support-1",
       "iso": "ISO",
       "drawing": "drawing string"
     },
@@ -36,7 +36,7 @@
       "tag": "Support 2",
       "quantity": 12,
       "unit":"english",
-      "line": ""
+      "line": "",
       "iso": "ISO",
       "drawing": ""
     },
@@ -45,9 +45,15 @@
       "tag": "Support 3",
       "quantity": 13,
       "unit":"metric",
-      "line": "line-support-3"
+      "line": "line-support-3",
       "iso": "ISO",
       "drawing": ""
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "catalogue-id-1",
+      "type": "PTP-100"
     }
   ]
 }
