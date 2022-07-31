@@ -3,22 +3,22 @@
     {
       "id": "proj-id-1",
       "name": "Project 1",
-      "max_variability": 10
+      "maxVariability": 10
     },
     {
       "id": "proj-id-2",
       "name": "Project 2",
-      "max_variability": 12
+      "maxVariability": 12
     },
     {
       "id": "proj-id-3",
       "name": "Project 3",
-      "max_variability": 13
+      "maxVariability": 13
     },
     {
       "id": "proj-id-4",
       "name": "Project 4",
-      "max_variability": 14
+      "maxVariability": 14
     }
   ],
   "supports": [
@@ -53,7 +53,31 @@
   "catalogue": [
     {
       "id": "catalogue-id-1",
-      "type": "PTP-100"
+      "type": "rigid-hanger",
+      "display name": "Rigid Hanger",
+      "selectionInputs": [
+        {
+          "name": "pipeClampType",
+          "displayName": "Pipe clamp type",
+          "required": true,
+          "type": "dropdown",
+          "options": [
+            {
+              "displayName": "Yoke U-Bolt (Fig 42/43)",
+              "value": "Yoke U-Bolt (Fig 42/43)"
+            },
+            {
+              "displayName": "2 Bolt Clamp (Fig 50/60)",
+              "value": "2 Bolt Clamp (Fig 50/60)"
+            },
+            {
+              "displayName": "3 Bolt Clamp (Fig 70/80)",
+              "value": "3 Bolt Clamp (Fig 70/80)"
+            }
+          ],
+          "validation": ""
+        }
+      ]
     }
   ]
 }
