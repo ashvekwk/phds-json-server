@@ -1,83 +1,134 @@
 {
-  "projects": [
-    {
-      "id": "proj-id-1",
-      "name": "Project 1",
-      "maxVariability": 10
-    },
-    {
-      "id": "proj-id-2",
-      "name": "Project 2",
-      "maxVariability": 12
-    },
-    {
-      "id": "proj-id-3",
-      "name": "Project 3",
-      "maxVariability": 13
-    },
-    {
-      "id": "proj-id-4",
-      "name": "Project 4",
-      "maxVariability": 14
-    }
-  ],
-  "supports": [
-    {
-      "id": "support-id-1",
-      "tag": "Support 1",
-      "quantity": 11,
-      "unit":"english",
-      "line": "line-support-1",
-      "iso": "ISO",
-      "drawing": "drawing string"
-    },
-    {
-      "id": "support-id-2",
-      "tag": "Support 2",
-      "quantity": 12,
-      "unit":"english",
-      "line": "",
-      "iso": "ISO",
-      "drawing": ""
-    },
-    {
-      "id": "support-id-3",
-      "tag": "Support 3",
-      "quantity": 13,
-      "unit":"metric",
-      "line": "line-support-3",
-      "iso": "ISO",
-      "drawing": ""
-    }
-  ],
-  "catalogue": [
-    {
-      "id": "catalogue-id-1",
-      "type": "rigid-hanger",
-      "display name": "Rigid Hanger",
-      "selectionInputs": [
+    "projects": [
         {
-          "name": "pipeClampType",
-          "displayName": "Pipe clamp type",
-          "required": true,
-          "type": "dropdown",
-          "options": [
-            {
-              "displayName": "Yoke U-Bolt (Fig 42/43)",
-              "value": "Yoke U-Bolt (Fig 42/43)"
-            },
-            {
-              "displayName": "2 Bolt Clamp (Fig 50/60)",
-              "value": "2 Bolt Clamp (Fig 50/60)"
-            },
-            {
-              "displayName": "3 Bolt Clamp (Fig 70/80)",
-              "value": "3 Bolt Clamp (Fig 70/80)"
-            }
-          ],
-          "validation": ""
+            "id": "proj-id-1",
+            "name": "Project 1",
+            "maxVariability": 10
+        },
+        {
+            "id": "proj-id-2",
+            "name": "Project 2",
+            "maxVariability": 12
+        },
+        {
+            "id": "proj-id-3",
+            "name": "Project 3",
+            "maxVariability": 13
+        },
+        {
+            "id": "proj-id-4",
+            "name": "Project 4",
+            "maxVariability": 14
         }
-      ]
-    }
-  ]
+    ],
+    "supports": [
+        {
+            "id": "support-id-1",
+            "tag": "Support 1",
+            "quantity": 11,
+            "unit": "english",
+            "line": "line-support-1",
+            "iso": "ISO",
+            "drawing": "drawing string"
+        },
+        {
+            "id": "support-id-2",
+            "tag": "Support 2",
+            "quantity": 12,
+            "unit": "english",
+            "line": "",
+            "iso": "ISO",
+            "drawing": ""
+        },
+        {
+            "id": "support-id-3",
+            "tag": "Support 3",
+            "quantity": 13,
+            "unit": "metric",
+            "line": "line-support-3",
+            "iso": "ISO",
+            "drawing": ""
+        }
+    ],
+    "catalogue": [
+        {
+            "id": "catalogue-id-1",
+            "type": "rigid-hanger",
+            "display name": "Rigid Hanger",
+            "selectionInputs": [
+                {
+                    "name": "pipeClampType",
+                    "displayName": "Pipe clamp type",
+                    "required": true,
+                    "type": "dropdown",
+                    "options": [
+                        {
+                            "displayName": "Yoke U-Bolt (Fig 42/43)",
+                            "value": "Yoke U-Bolt (Fig 42/43)"
+                        },
+                        {
+                            "displayName": "2 Bolt Clamp (Fig 50/60)",
+                            "value": "2 Bolt Clamp (Fig 50/60)"
+                        },
+                        {
+                            "displayName": "3 Bolt Clamp (Fig 70/80)",
+                            "value": "3 Bolt Clamp (Fig 70/80)"
+                        }
+                    ],
+                    "validation": ""
+                },
+                {
+                    "name": "rodThreadType",
+                    "displayName": "Rod thread type",
+                    "required": true,
+                    "type": "dropdown",
+                    "options": [
+                        {
+                            "displayName": "All Threaded Rod (Fig 122)",
+                            "value": "All Threaded Rod (Fig 122)"
+                        },
+                        {
+                            "displayName": "End Threaded Rod (Fig 128/129)",
+                            "value": "End Threaded Rod (Fig 128/129)"
+                        }
+                    ],
+                    "validation": ""
+                },
+                {
+                    "name": "middleAttachments",
+                    "displayName": "Middle attachments",
+                    "required": true,
+                    "type": "dropdown",
+                    "options": [
+                        {
+                            "displayName": "Turnbuckle",
+                            "value": "Turnbuckle"
+                        },
+                        {
+                            "displayName": "No Turnbuckle",
+                            "value": "No Turnbuckle"
+                        }
+                    ],
+                    "validation": ""
+                },
+                {
+                    "name": "endAttachments",
+                    "displayName": "End attachments",
+                    "required": true,
+                    "type": "dropdown",
+                    "options": [
+                        {
+                            "displayName": "Welded Beam Attachment (Fig 20)",
+                            "value": "Welded Beam Attachment (Fig 20)"
+                        },
+                        {
+                            "displayName": "Welding Lug (Fig 72)",
+                            "value": "Welding Lug (Fig 72)"
+                        }
+                    ],
+                    "validation": ""
+                }
+            ]
+        }
+    ]
 }
