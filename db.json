@@ -1,23 +1,53 @@
 {
-  "posts": [
+  "projects": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "id": "proj-id-1",
+      "name": "Project 1",
+      "max_variability": 10
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "id": "proj-id-2",
+      "name": "Project 2",
+      "max_variability": 12
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "id": "proj-id-3",
+      "name": "Project 3",
+      "max_variability": 13
     },
     {
-      "id": 4,
-      "title": "Post 4"
+      "id": "proj-id-4",
+      "name": "Project 4",
+      "max_variability": 14
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "supports": [
+    {
+      "id": "support-id-1",
+      "tag": "Support 1",
+      "quantity": 11,
+      "unit":"english",
+      "line": "line-support-1"
+      "iso": "ISO",
+      "drawing": "drawing string"
+    },
+    {
+      "id": "support-id-2",
+      "tag": "Support 2",
+      "quantity": 12,
+      "unit":"english",
+      "line": ""
+      "iso": "ISO",
+      "drawing": ""
+    },
+    {
+      "id": "support-id-3",
+      "tag": "Support 3",
+      "quantity": 13,
+      "unit":"metric",
+      "line": "line-support-3"
+      "iso": "ISO",
+      "drawing": ""
+    }
+  ]
 }
