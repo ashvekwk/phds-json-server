@@ -3,22 +3,26 @@
         {
             "id": "proj-id-1",
             "name": "Project 1",
-            "maxVariability": 10
+            "maxVariability": 10,
+            "createdDate": "Mon Aug 15 2022 18:23:51 GMT+0200"
         },
         {
             "id": "proj-id-2",
             "name": "Project 2",
-            "maxVariability": 12
+            "maxVariability": 12,
+            "createdDate": "Tue Aug 16 2022 10:23:51 GMT+0200"
         },
         {
             "id": "proj-id-3",
             "name": "Project 3",
-            "maxVariability": 13
+            "maxVariability": 13,
+            "createdDate": "Wed Aug 17 2022 20:23:51 GMT+0200"
         },
         {
             "id": "proj-id-4",
             "name": "Project 4",
-            "maxVariability": 14
+            "maxVariability": 14,
+            "createdDate": "Sat Aug 13 2022 11:23:51 GMT+0200"
         }
     ],
     "supports": [
